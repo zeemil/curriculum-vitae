@@ -1,6 +1,11 @@
 /**
  * Author: Hong Wang
  * Github: https://github.com/H0NGWANG
+
+ Colors:
+ - #447d81 for buttons and sub-titles -> 447d81
+ - #64b2b6 for titles and btn hober   -> 529699
+
 **/
 body {
     font-family: 'Noto Sans', sans-serif;
@@ -15,13 +20,13 @@ main {
 }
 
 a, a:hover {
-    color: #64b2b6;
+    color: #529699;
 }
 
 h2 {
     font-size: 20px;
     font-weight: 500;
-    color: #64b2b6;
+    color: #529699;
 }
 
 .left-side {
@@ -50,14 +55,14 @@ h2 {
 .btn-cv {
     padding: 10px;
     color: white;
-    background-color: #71c9ce;
+    background-color: #447d81;
     width: 100%;
     border-radius: 0px;
 }
 
 .btn-cv:hover {
     color: #fff;
-    background-color: #64b2b6;
+    background-color: #529699;
 }
 
 .btn:focus, .btn:active {
@@ -80,7 +85,7 @@ h2 {
 }
 
 section {
-    padding: 40px;
+    padding: 30px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -94,7 +99,7 @@ section {
 }
 
 .company, .school-name{
-    color: #71c9ce;
+    color: #447d81;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0px;
@@ -103,7 +108,7 @@ section {
 .time {
     font-size: 15px;
     font-weight: 500;
-    color: #71c9ce;
+    color: #447d81;
 }
 
 .job-title, .school-title {
@@ -117,7 +122,7 @@ section {
 }
 
 .honors h3{
-    color: #71c9ce;
+    color: #447d81;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0px;
