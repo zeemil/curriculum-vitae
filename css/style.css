@@ -13,6 +13,12 @@ body {
     color: #3d3d3f;
 }
 
+@media print {
+    body {
+        padding: 0px 0px;
+    }
+}
+
 main {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -51,6 +57,12 @@ h2 {
 .picture img {
     max-width: 100%;
 }
+@media print{
+
+    .picture img {
+        max-width: 30%;
+    }
+}
 
 .btn-cv {
     padding: 10px;
@@ -87,6 +99,12 @@ h2 {
 section {
     padding: 30px;
     border-bottom: 1px solid #ddd;
+}
+@media print{
+    section {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
 }
 
 .section-title {
