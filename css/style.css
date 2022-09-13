@@ -60,7 +60,7 @@ h2 {
 @media print{
 
     .picture img {
-        max-width: 30%;
+        max-width: 20%;
     }
 }
 
@@ -102,7 +102,7 @@ section {
 }
 @media print{
     section {
-        padding: 15px;
+        padding: 8px;
         border-bottom: 1px solid #ddd;
     }
 }
